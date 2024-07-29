@@ -36,6 +36,14 @@ body {
     margin-left: 10px;
     cursor: pointer;
 }
+@media (max-width: 516px) {
+    .container .field input {
+        width: 70%;
+    }
+    .container .field span {
+        margin-left: 6px;
+    }
+}
 .container .content {
     padding: 20px;
     background-color: #e6e0e0;
