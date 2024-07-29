@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+}
+::selection {
+    background-color: #ff5722;
+    color: white;
+}
+body {
+    font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.container {
+    margin: 20px;
+}
+.container .field {
+    padding: 20px;
+    background-color: #e6e0e0;
+    margin-bottom: 15px;
+}
+.container .field input {
+    padding: 12px 15px;
+    border-radius: 6px;
+    border: none;
+    width: 80%;
+    transition: 0.1s;
+}
+.container .field input:focus {
+    outline: 3px #ff5722 solid;
+}
+.container .field span {
+    background-color: #ff5722;
+    color: white;
+    padding: 9px 11px;
+    border-radius: 6px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.container .content {
+    padding: 20px;
+    background-color: #e6e0e0;
+}
+.content .repo {
+    background-color: white;
+    padding: 16px 13px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.content .repo:not(:last-child) {
+    margin-bottom: 5px;
+}
+.info {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.info a,
+.info span {
+    background-color: #00bcd4;
+    color: white;
+    padding: 6px;
+    border-radius: 8px;
+    font-size: 14px;
+}
+.info a {
+    text-decoration: none;
+    margin-right: 10px;
+    transition: 0.3s;
+}
+.info a:hover {
+    background-color: #00bcd4a3;
+}
+
+.info span:not(:last-child) {
+    margin-right: 10px;
+}
+.info span:first-of-type {
+    color: #333;
+    background-color: #fff220;
+}
+.info .lang {
+    background-color: #ff5722;
+}
+.content .profile {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    background: white;
+    width: fit-content;
+    padding: 20px 10px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 12px rgb(0 0 0 / 12%);
+}
+.content .profile img {
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+}
+.content .profile div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.content .profile div span {
+    font-weight: bold;
+    font-size: 19px;
+    font-family: math;
+    letter-spacing: 1px;
+}
+.content .profile div a {
+    background-color: #ab47bc;
+    color: white;
+    padding: 6px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.content .profile div a:hover {
+    transform: scale(1.1);
+    background-color: #9c27b0;
+}
