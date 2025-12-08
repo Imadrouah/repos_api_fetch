@@ -4,17 +4,17 @@ This project is a web application that fetches GitHub repositories using a provi
 
 ## Features
 
--   Fetch repositories by GitHub username
--   Display repository details including:
-    -   Name of the repository
-    -   Stars count
-    -   Most used language
-    -   Button to visit the repository
--   Show user profile details including:
-    -   Profile picture
-    -   Name with a link to their GitHub profile
--   Responsive design
--   Error handling for invalid usernames and network issues
+- Fetch repositories by GitHub username
+- Display repository details including:
+  - Button to visit the repository
+  - Name of the repository
+  - Stars count
+  - Most used language
+- Show user profile details including:
+  - Profile picture
+  - UserName with a link to their GitHub profile
+- Responsive design
+- Error handling for invalid usernames and network issues
 
 ## Technologies Used
 
